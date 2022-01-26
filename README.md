@@ -57,4 +57,5 @@
 
 ### 2022.01.25 - 2022.01.31
 
-- LCS: [https://www.acmicpc.net/problem/9251](https://www.acmicpc.net/problem/9251)
+- 1학년: [https://www.acmicpc.net/problem/5557](https://www.acmicpc.net/problem/5557)
+- 빗물: [https://www.acmicpc.net/problem/14719](https://www.acmicpc.net/problem/14719)

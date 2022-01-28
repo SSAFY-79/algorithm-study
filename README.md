@@ -59,3 +59,6 @@
 
 - 1학년: [https://www.acmicpc.net/problem/5557](https://www.acmicpc.net/problem/5557)
 - 빗물: [https://www.acmicpc.net/problem/14719](https://www.acmicpc.net/problem/14719)
+- 단어수학: [https://www.acmicpc.net/problem/1339](https://www.acmicpc.net/problem/1339)
+- 색상환: [https://www.acmicpc.net/problem/2482](https://www.acmicpc.net/problem/2482)
+- 파이프 옮기기 1: [https://www.acmicpc.net/problem/17070](https://www.acmicpc.net/problem/17070)

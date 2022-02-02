@@ -45,5 +45,6 @@ public class Main {
             frame = temp;
         }
         System.out.println(frame[arr[N-1]]);
+        sc.close();
     }
 }

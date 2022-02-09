@@ -62,3 +62,11 @@
 - 단어수학: [https://www.acmicpc.net/problem/1339](https://www.acmicpc.net/problem/1339)
 - 색상환: [https://www.acmicpc.net/problem/2482](https://www.acmicpc.net/problem/2482)
 - 파이프 옮기기 1: [https://www.acmicpc.net/problem/17070](https://www.acmicpc.net/problem/17070)
+
+### 2022.02.07 - 2022.02.14
+
+- 달팽이: [https://www.acmicpc.net/problem/1913](https://www.acmicpc.net/problem/1913)
+- 빙고: [https://www.acmicpc.net/problem/2578](https://www.acmicpc.net/problem/2578)
+- 지뢰 찾기: [https://www.acmicpc.net/problem/4396](https://www.acmicpc.net/problem/4396)
+- 오리: [https://www.acmicpc.net/problem/12933](https://www.acmicpc.net/problem/12933)
+- 소가 길을 건넌 이유 1: [https://www.acmicpc.net/problem/14467](https://www.acmicpc.net/problem/14467)

@@ -1,3 +1,5 @@
+package algorithm.kwangwoo.temp;
+
 import java.util.Scanner;
 
 public class _2578 {

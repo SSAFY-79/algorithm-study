@@ -1,9 +1,9 @@
-package algorithm.kwangwoo.temp;
+package algorithm.kwangwoo.week2.boj.q14467;
 
 import java.util.HashMap;
 import java.util.Scanner;
 
-class _14467{
+class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

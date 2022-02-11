@@ -1,7 +1,7 @@
-package src.algorithm.kwangwoo.temp;
+package algorithm.kwangwoo.week2.boj.q4396;
 import java.util.*;
 
-class _4396{
+class Main{
     static boolean isfail = false;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

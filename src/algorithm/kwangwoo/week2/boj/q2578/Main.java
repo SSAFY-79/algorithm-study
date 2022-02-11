@@ -1,8 +1,8 @@
-package algorithm.kwangwoo.temp;
+package algorithm.kwangwoo.week2.boj.q2578;
 
 import java.util.Scanner;
 
-public class _2578 {
+public class Main {
     static boolean[][] bingo = new boolean[5][5];
 
     static boolean check_cross1 = false;  // /

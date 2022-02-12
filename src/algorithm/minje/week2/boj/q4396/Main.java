@@ -21,7 +21,7 @@ public class Main {
         char[][] ansBomb = new char[n][n];
         char[][] ans = new char[n][n];
         boolean bombClicked = false;
-        
+
         for (int i = 0; i < n; i++) {
             char[] tmp = br.readLine().toCharArray();
             bombMap[i] = Arrays.copyOf(tmp,tmp.length);

@@ -42,7 +42,7 @@
 > 1회 : 오답 <br>
 > 2회 : 오답 <br>
 > 4회 : 오답 <br>
-> 3회 : [성공](https://github.com/kangyunsik/algorithm-study/blob/main/src/algorithm/yunsik/week2/boj/q12933/Main.java)
+> 3회 : [성공](https://github.com/BumBamBi/algorithm-study/blob/main/src/algorithm/kwangwoo/week2/boj/q12933/Main.java)
 
 - 1회 : quack을 마무리 하지 않은 경우(q, qu, qua, quack) -1을 출력하지 않아서 오답
 - 2회 : 메소드 리턴값 예외값 처리를 했으나, 문제조건에서 q,u,a,c,k 만 입력는 조건이 있으므로 오답
@@ -51,7 +51,7 @@
 
 ### BOJ/14467: 소가 길을 건너간 이유 1
 
-> 1회 : [성공](https://github.com/kangyunsik/algorithm-study/blob/main/src/algorithm/yunsik/week2/boj/q14467/Main.java)
+> 1회 : [성공](https://github.com/BumBamBi/algorithm-study/blob/main/src/algorithm/kwangwoo/week2/boj/q14467/Main.java)
 - 1회 : HashMap를 이용하여 <소의 번호, 현 상태>를 저장, 검색, 수정하여 구현
 
 <br>

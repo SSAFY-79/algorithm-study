@@ -9,19 +9,13 @@ public class Main {
         int height = sc.nextInt();
         int width = sc.nextInt();
 
-        List<Integer> myList = new ArrayList<>(width);
+        int[] arr = new int[width];
 
         for(int i=0; i<width; i++){
-            myList.add(sc.nextInt());
+            arr[i] = sc.nextInt();
         }
         
-        // 높이 제거하기
-        int heightest = Collections.max(myList);
-        for(int i=0; i<width; i++){
-            myList.get(i);
-        }
-
-        // 좌우 빈곳 위치 찾아서 제거하기
+        
 
         sc.close();
     }

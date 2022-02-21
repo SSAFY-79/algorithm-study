@@ -1,4 +1,4 @@
-package algorithm.yunsik.week3.q20115;
+package algorithm.yunsik.week3.boj.q20115;
 
 import java.io.*;
 import java.util.StringTokenizer;

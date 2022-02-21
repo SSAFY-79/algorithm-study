@@ -1,4 +1,4 @@
-package algorithm.yunsik.week3.q17829;
+package algorithm.yunsik.week3.boj.q17829;
 
 import java.io.*;
 import java.util.Arrays;

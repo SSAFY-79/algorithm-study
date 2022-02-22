@@ -1,5 +1,9 @@
 package algorithm.minje.week3.boj.q9663;
 
+/*
+메모리 : 12336KB
+시간 : 6220ms
+ */
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -25,7 +29,7 @@ public class Main {
     }
 
     static void dfs(int count) {
-        if(count == N-1){
+        if(count == N){
             ans++;
             return;
         }

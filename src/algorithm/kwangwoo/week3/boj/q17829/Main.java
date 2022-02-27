@@ -29,23 +29,25 @@ public class Main {
         if(n == 1){
             System.out.println(input[0][0]);
         }else{
-            // 절반 사이즈의 table 생성
+            // 가로세로절반 사이즈(총 1/4)의 table 생성
             int[][] temp = new int[n/2][n/2];
 
             // 각 사각형의 좌상단을 기준으로 전체 조회
             for(int y=0; y<n; y+=2){
                 for(int x=0; x<n; x+=2){
-                    // 해당 구역 4개를 저장
+                    // 해당 구역 4개중 두번째로 큰값을 저장하기
+                    
+                    // 값 가져와서
                     int[] values = new int[4];
                     values[0] = input[y][x];
                     values[1] = input[y][x+1];
                     values[2] = input[y+1][x];
                     values[3] = input[y+1][x+1];
     
-                    // 정렬
+                    // 정렬 후에
                     Arrays.sort(values);
     
-                    // 두번쨰로 큰 값을 저장
+                    // 두번째로 큰 값을 저장
                     temp[y/2][x/2] = values[2];
                 }
             }

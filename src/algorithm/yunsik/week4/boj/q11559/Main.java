@@ -1,4 +1,4 @@
-package algorithm.yunsik.week4.q11559;
+package algorithm.yunsik.week4.boj.q11559;
 
 import java.io.*;
 import java.util.*;

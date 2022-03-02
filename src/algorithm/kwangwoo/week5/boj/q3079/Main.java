@@ -36,31 +36,33 @@ class Main {
         sc.close();
     }
 
-    //1. start = 1, end = maxTime * M 로 설정함
-    //2. 그래서 mid / times[i] 를 해서 sum에 다 더함
-    //2-1. 더한 값이 사람 수보다 많거나 같을 때 mid를 줄여야함. 그래서 end = mid - 1을 해주고,
-    //2-2. 더한 값이 사람 수보다 적으면 mid를 늘려야함. 그래서 start = mid + 1을 해주어야함.
+    // 심사대 기준으로, T초만큼 시간이 지나면, 각 심사대는 n명씩 통과할 수 있음
+    // 따라서 T초마다 모든 심사대에서 통과시킬 수 있는 사람수를 파악하여 계산
     public static void binarySearch(){
-        // 1초부터 시작
+        // 초의 범위를 지정
+        // 최소 : 1초
         long start = 1;
-        // 가장 느린걸 심사대로 모두 갈 때가 마지막 
+        // 최대 : 가장 느린 심사대 * 사람 수
         long end = maxTime * M;
         
         while(start <= end){
-            // 중간값 찾기
+            // 정답(특정 초)을 찾기위해 이분탐색을 할 중앙값
             long mid = (start + end) / 2;
-            // 중간값으로 각 검사대를 거치는 시간
+            // 특정 시간일 때, 사람이 지나갈 수 있는 수의 합
             long sum = 0;
             for(int i = 0; i < N; i++){
+                // 특정 시간(mid)일 때, 해당 심사대에서 사람이 지나갈 수 있는 수
                 sum += mid / times[i];
             }
-            // sum이 M 이상이면
+            // 통과한 사람 수가 M 이상이면 
             if(sum >= M){
+                // 더 적은 시간으로 목표를 달성할 수 있으므로 끝값을 줄임
                 // start ~ (mid-1)까지 재탐색
                 end = mid - 1;
             }
             // sum이 M 미만이면
             else{
+                // 더 많은 시간이 필요하므로, 시작값을 키움
                 // (mid+1) ~ end 까지 재탐색
                 start = mid + 1;
             }

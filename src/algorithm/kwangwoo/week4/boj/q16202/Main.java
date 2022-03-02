@@ -44,11 +44,10 @@ public class Main {
             nodes.add(new Node(from, to, i+1));
         }
 
-        
+        // 정렬
+        // Collections.sort(nodes, (o1, o2) -> o1.weight - o2.weight);
+
         for(int i=0; i<K; i++){
-            // 정렬
-            Collections.sort(nodes, (o1, o2) -> o1.weight - o2.weight);
-        
             // 서로소 만들기
             makeSet();
 

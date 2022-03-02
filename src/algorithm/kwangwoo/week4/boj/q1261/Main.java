@@ -33,7 +33,7 @@ public class Main {
         N = sc.nextInt();
  
         map = new int[N+1][M+1];
-        visit = new boolean[N + 1][M + 1];
+        visit = new boolean[N+1][M+1];
         
         for (int i = 1; i <= N; i++) {
             String input = sc.next();

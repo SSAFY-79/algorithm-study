@@ -372,3 +372,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,eclipse,intellij+all,intellij,intellij+iml
+
+# Custom Algorithm ignore files
+
+*.txt
+.github/PULL_REQUEST_TEMPLATE.md

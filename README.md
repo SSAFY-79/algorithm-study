@@ -89,9 +89,16 @@
 
 ### 2022.03.01 - 2022.03.08
 
+- 휴게소 세우기: [https://www.acmicpc.net/problem/1477](https://www.acmicpc.net/problem/1477)
 - 문제집: [https://www.acmicpc.net/problem/1766](https://www.acmicpc.net/problem/1766)
-- 행렬의 부분합: [https://www.acmicpc.net/problem/2369](https://www.acmicpc.net/problem/2369)
 - 탈출: [https://www.acmicpc.net/problem/3055](https://www.acmicpc.net/problem/3055)
 - 입국심사: [https://www.acmicpc.net/problem/3079](https://www.acmicpc.net/problem/3079)
 - 철도 공사: [https://www.acmicpc.net/problem/23309](https://www.acmicpc.net/problem/23309)
 
+### 2022.03.09 - 2022.03.15
+
+- ACM Craft: [https://www.acmicpc.net/problem/1005](https://www.acmicpc.net/problem/1005)
+- 키패드 누르기: [https://programmers.co.kr/learn/courses/30/lessons/67256](https://programmers.co.kr/learn/courses/30/lessons/67256)
+- 수식 최대화: [https://programmers.co.kr/learn/courses/30/lessons/67257](https://programmers.co.kr/learn/courses/30/lessons/67257)
+- 보석 쇼핑: [https://programmers.co.kr/learn/courses/30/lessons/67258](https://programmers.co.kr/learn/courses/30/lessons/67258)
+- 경주로 건설: [https://programmers.co.kr/learn/courses/30/lessons/67259](https://programmers.co.kr/learn/courses/30/lessons/67259)

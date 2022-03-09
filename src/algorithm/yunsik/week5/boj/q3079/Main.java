@@ -22,9 +22,7 @@ public class Main {
         long begin = 0L;
         long mid;
         long end = (long) maxTime * m;
-        long ans = (long) maxTime * m;
 
-        // [15, 16)   15
         while (begin < end) {
             mid = begin + (end - begin) / 2;
             long availPeople = calcAvailPeople(mid);
@@ -32,7 +30,6 @@ public class Main {
                 begin = mid + 1;
             } else {
                 end = mid;
-                ans = Math.min(ans, mid);
             }
         }
         bw.write(String.valueOf(end));

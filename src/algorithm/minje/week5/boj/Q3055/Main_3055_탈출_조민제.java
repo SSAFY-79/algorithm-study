@@ -19,7 +19,7 @@ public class Main_3055_탈출_조민제 {
     static int[] dr = {-1, 1, 0, 0}; //상하좌우
     static int[] dc = {0, 0, -1, 1};
 //    static int[] GS_LOC; //고슴도치 위치
-    static int[] BC_LOC; //비버의굴 위치
+//    static int[] BC_LOC; //비버의굴 위치
     static int time = 0;
     static Queue<int[]> waterQ = new LinkedList<>();
     static Queue<int[]> pathQ = new LinkedList<>();
@@ -44,6 +44,7 @@ public class Main_3055_탈출_조민제 {
                 map[i][j] = input[j];
             }
         }
+
         do {
             time++;
             if (pathQ.size() == 0) {
@@ -63,7 +64,7 @@ public class Main_3055_탈출_조민제 {
                 int nr = cur[0] + dr[d];
                 int nc = cur[1] + dc[d];
                 if (isValidRange(nr, nc) && isEmptyLand(nr, nc)) {
-                    map[nr][nc] = '*';
+                    map[nr][nc] = WATER;
                     waterQ.offer(new int[]{nr, nc});
                 }
             }
@@ -109,9 +110,9 @@ public class Main_3055_탈출_조민제 {
         if (input == GO_SEUM_DO_CHI) {
             pathQ.offer(curCord);
         }
-        if (input == BEBBER_CAVE) {
-            BC_LOC = curCord;
-        }
+//        if (input == BEBBER_CAVE) {
+//            BC_LOC = curCord;
+//        }
         if (input == WATER) {
             waterQ.offer(curCord);
         }

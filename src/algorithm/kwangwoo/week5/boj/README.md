@@ -8,7 +8,7 @@
 
 [BOJ/23309번](https://www.acmicpc.net/problem/23309) 철도공사
 
-[BOJ/2369번](https://www.acmicpc.net/problem/14467) 행렬의 부분합
+[BOJ/1477번](https://www.acmicpc.net/problem/1477) 휴게소 세우기
 
 ---
 
@@ -49,7 +49,7 @@
 - 4회 : 삭제부분도 수정하였으나, 시간초과 발생
 - 5회 : Scanner와 System.out을 BufferdReader와 StringBuilder사용하였으나 시간초과 발생
 
-### BOJ/2369번: 행렬의 부분합
+### BOJ/1477번: 휴게소 세우기
 
 <br>
 
@@ -75,4 +75,7 @@
 
 ### BOJ/23309번: 철도공사
 
-### BOJ/2369번: 행렬의 부분합
+- HsahMap 조회의 시간 복잡도에 대해서 알 수 있는 기회
+- 기본으로 제공되는 라이브러리에 대한 이해가 필요하단것을 느낌
+
+### BOJ/1477번: 휴게소 세우기

@@ -72,22 +72,23 @@ class Main {
 
         // Max 해주는 이유는 이전 테크가 다 올라야 현재 건물을 지을 수 있기 때문
         while (!q.isEmpty()) {
-            int cur = q.poll();
+            int builded = q.poll();
 
             // 현재 건물을 지으면 지을 수 있는 건물들을 차례로 조회
-            for (int i : list.get(cur)) {
+            for (int willBuild : list.get(builded)) {
                 // 지을 수 있는 건물의 소요시간을 업데이트
-                // 현재건물까지 걸린 시간 + 현재 건물을 짓는데 걸리는 시간
-                // Max 해주는 이유는 이전 테크가 다 올라야 현재 건물을 지을 수 있기 때문???
-                result[i] = Math.max(result[i], result[cur] + buildTimes[i]);
-                // result[i] = result[cur] + buildTimes[i]; <- 안됨!
+                // 지금까지 오는데 걸린 시간 vs 현재건물까지 걸린 시간 + 현재 건물을 짓는데 걸리는 시간
+                // Max 해주는 이유는 이전 테크가 다 올라야 현재 건물을 지을 수 있는데, 더 오랜 시간이 걸리는 것으로 해야함
+                // 예를 들어 4까지 오기 위해 한 방법은 20초 , 다른 방법은 30초라면, 두 건물이 모두 지어져야하므로 30초가 되어야함
+                result[willBuild] = Math.max(result[willBuild], result[builded] + buildTimes[willBuild]);
+                // result[willBuild] = result[builded] + buildTimes[willBuild]; <- 안됨!
                 
                 // 조회된 건물을 짓기 위해 필요한 건물 수 -1 
-                indegree[i]--;
+                indegree[willBuild]--;
 
                 // 해당 값이 0 이면 조회된 건물을 지을 수 있음
-                if (indegree[i] == 0) {
-                    q.offer(i);
+                if (indegree[willBuild] == 0) {
+                    q.offer(willBuild);
                 }
             }
         }

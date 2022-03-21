@@ -19,7 +19,7 @@
 
 > 1회 : 런타임에러<br>
 > 2회 : 런타임에러<br>
-> 3회 : [성공](https://github.com/BumBamBi/algorithm-study/blob/main/src/algorithm/kwangwoo/week7/boj/q1922/Main.java)
+> 3회 : [성공](https://github.com/BumBamBi/algorithm-study/tree/main/src/algorithm/kwangwoo/week7/boj/q1922/Main.java)
 
 - N과 M의 범위가 1부터라 배열초과로 런타임에러 발생
 - 코드를 수정하면서 잘못 붙여넣으면 런타임에러 발생
@@ -34,7 +34,11 @@
 
 ### [BOJ/1647번](https://www.acmicpc.net/problem/1647) 도시 분할 계획찾기
 
+> 1회 : [성공](https://github.com/BumBamBi/algorithm-study/tree/main/src/algorithm/kwangwoo/week7/boj/q1647/Main.java)
+
 ### [BOJ/4386번](https://www.acmicpc.net/problem/4386) 별자리 만들기
+
+> 1회 : [성공](https://github.com/BumBamBi/algorithm-study/tree/main/src/algorithm/kwangwoo/week7/boj/q4386/Main.java)
 
 ### [BOJ/4343번](https://www.acmicpc.net/problem/4343) Arctic Network
 
@@ -53,6 +57,12 @@
 
 ### [BOJ/1647번](https://www.acmicpc.net/problem/1647) 도시 분할 계획찾기
 
+- 2개로 도시를 나눈다는 점을 인지하지 못해 헤맸음
+- MST에서 하나의 간선을 제거하면 두개의 트리가 됨
+
 ### [BOJ/4386번](https://www.acmicpc.net/problem/4386) 별자리 만들기
+
+- 두 노드의 거리를 위해 계산함
+- Math.round()의 소수점 반올림 방법에 대해 익힘
 
 ### [BOJ/4343번](https://www.acmicpc.net/problem/4343) Arctic Network

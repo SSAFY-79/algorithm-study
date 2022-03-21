@@ -1,4 +1,4 @@
-package algorithm.kwangwoo.week7.boj.q1647;
+package algorithm.kwangwoo.week7.boj.q6497;
 
 import java.util.Collections;
 import java.util.LinkedList;

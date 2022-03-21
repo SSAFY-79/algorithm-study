@@ -2,7 +2,7 @@
 
 [BOJ/1922번](https://www.acmicpc.net/problem/1922) 네트워크 연결
 
-[BOJ/1497번](https://www.acmicpc.net/problem/1497) 전력난
+[BOJ/6497번](https://www.acmicpc.net/problem/6497) 전력난
 
 [BOJ/1647번](https://www.acmicpc.net/problem/1647) 도시 분할 계획찾기
 
@@ -25,7 +25,7 @@
 - 코드를 수정하면서 잘못 붙여넣으면 런타임에러 발생
 
 
-### [BOJ/1497번](https://www.acmicpc.net/problem/1497) 전력난
+### [BOJ/6497번](https://www.acmicpc.net/problem/6497) 전력난
 
 > 1회 : 런타임에러<br>
 > 2회 : 런타임에러<br>
@@ -47,7 +47,7 @@
 
 ### [BOJ/1922번](https://www.acmicpc.net/problem/1922) 네트워크 연결
 
-### [BOJ/1497번](https://www.acmicpc.net/problem/1497) 전력난
+### [BOJ/6497번](https://www.acmicpc.net/problem/6497) 전력난
 
 - 버퍼가 아니라 Scanner로 인식할 수 있는지 궁금하다
 

@@ -48,6 +48,9 @@
 
 ### [BOJ/2437번](https://www.acmicpc.net/problem/2437) 저울
 
+> 1회 : 실패<br>
+> 2회 : [성공](https://github.com/BumBamBi/algorithm-study/tree/main/src/algorithm/kwangwoo/week7/boj/q4386/Main.java)
+
 ### [BOJ/1562번](https://www.acmicpc.net/problem/1562) 계단 수
 
 <br>
@@ -76,4 +79,5 @@
 
 ### [BOJ/2437번](https://www.acmicpc.net/problem/2437) 저울
 
+- 만들 수 있는 최소합을 이해한다면 쉽게 해결할 수 있는 문제였다
 ### [BOJ/1562번](https://www.acmicpc.net/problem/1562) 계단 수

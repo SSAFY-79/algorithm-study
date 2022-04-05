@@ -1,53 +1,47 @@
 package algorithm.kwangwoo.week8.q2811;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
 
     static int N;
     static int K;
-    static String input;
+    static int[] arrInputInt;
+	static int count = 0;
+    static Stack<Integer> stack = new Stack<>();
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-
+        
         N = sc.nextInt();
         K = sc.nextInt();
-        input = sc.next();
+        String input = sc.next();
+        arrInputInt = new int[N];
         
-        String curStr = input;
-        StringBuilder sb = new StringBuilder();
-
-        // 제거할 숫자 개수만큼 반복
-        for (int i = 1; i <= K; i++) {
-            String preStr = curStr;
-            for (int j = 0; j < preStr.length(); j++) {
-                // 숫자 하나 뺀 str만들기 
-                for (int k = 0; k < preStr.length(); k++) {
-                    if (k != j) {
-                        sb.append(preStr.charAt(k));
-                    }
-                }
-                // String tempStr = sb.toString();
-
-                // 만들어진 str과 기존 str과 비교하기
-                for (int k = 0; k < sb.toString().length(); k++) {
-                    if (curStr.charAt(k) < sb.toString().charAt(k)) {
-                        curStr = sb.toString();
-                        break;
-                    } else if (curStr.charAt(k) == sb.toString().charAt(k)) {
-                        continue;
-                    } else {
-                        break;
-                    }
-                }
-                
-                // sb초기화
-                sb.setLength(0);
-            }
+        // 입력숫자의 각 자리를 배열에 넣음
+        for (int i = 0; i < input.length(); i++) {
+            arrInputInt[i] = input.charAt(i) - '0';
         }
 
-        System.out.println(curStr);
+        // 다음 자리수가 더 크다면 빼는게 더 이득임!
+        for (int i = 0; i < arrInputInt.length; i++) {
+            // 뺄 숫자가 남아있고(count<K), stack이 비어있지 않으며, "stack의 top이 현재 자리수보다 작다면"
+            while (count < K && !stack.isEmpty() && stack.peek() < arrInputInt[i]) {
+                // 스택에 있던 기존 값을 빼버림
+                stack.pop();
+                count++;
+            }
+            // 해당 자릿수를 스택에 push
+            stack.push(arrInputInt[i]);
+        }
+        
+        // 출력
+        for (int i = 0; i < N - K; i++) {
+            // 스택 요소를 bottom부터 출력
+            System.out.print(stack.elementAt(i));
+        }
+
         sc.close();
-    }
+	}
 }

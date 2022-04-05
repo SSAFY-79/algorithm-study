@@ -121,3 +121,10 @@
 - 연속합 2: [https://www.acmicpc.net/problem/13398](https://www.acmicpc.net/problem/13398)
 - 이모티콘: [https://www.acmicpc.net/problem/14226](https://www.acmicpc.net/problem/14226)
 
+### 2022.04.05 - 2022.04.11
+
+- 사전: [https://www.acmicpc.net/problem/1256](https://www.acmicpc.net/problem/1256)
+- 작업: [https://www.acmicpc.net/problem/2056](https://www.acmicpc.net/problem/2056)
+- 반도체 설계: [https://www.acmicpc.net/problem/2352](https://www.acmicpc.net/problem/2352)
+- 최솟값과 최댓값: [https://www.acmicpc.net/problem/2357](https://www.acmicpc.net/problem/2357)
+- 청소년 상어: [https://www.acmicpc.net/problem/19236](https://www.acmicpc.net/problem/19236)

@@ -1,4 +1,4 @@
-package algorithm.kwangwoo.week8.q13398;
+package algorithm.kwangwoo.week8.boj.q13398;
 
 import java.util.Scanner;
 

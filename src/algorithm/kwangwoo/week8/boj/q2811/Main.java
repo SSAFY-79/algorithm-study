@@ -1,4 +1,4 @@
-package algorithm.kwangwoo.week8.q2811;
+package algorithm.kwangwoo.week8.boj.q2811;
 
 import java.util.Scanner;
 import java.util.Stack;

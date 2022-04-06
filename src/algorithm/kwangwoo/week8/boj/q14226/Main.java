@@ -1,4 +1,4 @@
-package algorithm.kwangwoo.week8.q14226;
+package algorithm.kwangwoo.week8.boj.q14226;
 
 import java.util.LinkedList;
 import java.util.Queue;
